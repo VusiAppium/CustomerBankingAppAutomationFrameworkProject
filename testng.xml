@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="UIAutomationTesting.Listeners"/>
+        <listener class-name="Resources.ExtentReporterNG"/>
+    </listeners>
+    <test name="Validating Customer Login">
+        <classes>
+            <class name="UIAutomationTesting.CustomerLogin.Login"/>
+        </classes>
+    </test>
+
+    <test name="Validating Customer Registratoin">
+        <classes>
+            <class name="UIAutomationTesting.CustomerRegistration.Registration"/>
+        </classes>
+    </test>
+</suite>
