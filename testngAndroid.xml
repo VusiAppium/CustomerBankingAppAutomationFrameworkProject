@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="UIAutomationTesting.ANDROID.Resources.Listeners"/>
+        <listener class-name="UIAutomationTesting.ANDROID.Reports.ExtentReporterNG"/>
+    </listeners>
+    <test name="Validating Customer Login for Android ">
+        <classes>
+            <class name="UIAutomationTesting.ANDROID.TestNG.LoginScreenUITesting"/>
+        </classes>
+    </test>
+
+    <test name="Validating Customer Registratoin for Android">
+        <classes>
+            <class name="UIAutomationTesting.ANDROID.TestNG.RegisterScreenUITesting"/>
+        </classes>
+    </test>
+</suite>

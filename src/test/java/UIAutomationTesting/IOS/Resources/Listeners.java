@@ -1,4 +1,4 @@
-package UIAutomationTesting;
+package UIAutomationTesting.IOS.Resources;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="UIAutomationTesting.ANDROID.Resources.Listeners"/>
+        <listener class-name="Resources.ExtentReporterNG"/>
+    </listeners>
+
+    <test name="Validating Customer Login for IOS ">
+        <classes>
+            <class name="UIAutomationTesting.IOS.TestNG.LoginTesting"/>
+        </classes>
+    </test>
+
+    <test name="Validating Customer Registration for IOS">
+        <classes>
+            <class name="UIAutomationTesting.IOS.TestNG.RegistrationTesting"/>
+        </classes>
+    </test>
+
+    <test name="Validating Scroll Testing for IOS">
+        <classes>
+            <class name="UIAutomationTesting.IOS.TestNG.ScrollTest"/>
+        </classes>
+    </test>
+
+    <test name="Validating Long Press Tap Testing for IOS">
+        <classes>
+            <class name="UIAutomationTesting.IOS.TestNG.LongPressTap"/>
+        </classes>
+    </test>
+
+    <test name="Login">
+        <classes>
+            <class name="UIAutomationTesting.IOS.TestNG.LongPressTap">
+                <methods>
+                    <exclude name="Register.*"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
