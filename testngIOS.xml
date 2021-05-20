@@ -8,31 +8,31 @@
 
     <test name="Validating Customer Login for IOS ">
         <classes>
-            <class name="UIAutomationTesting.IOS.TestNG.LoginTesting"/>
+            <class name="UIAutomationTesting.IOS.UITesting.LoginTesting"/>
         </classes>
     </test>
 
     <test name="Validating Customer Registration for IOS">
         <classes>
-            <class name="UIAutomationTesting.IOS.TestNG.RegistrationTesting"/>
+            <class name="UIAutomationTesting.IOS.UITesting.RegistrationTesting"/>
         </classes>
     </test>
 
     <test name="Validating Scroll Testing for IOS">
         <classes>
-            <class name="UIAutomationTesting.IOS.TestNG.ScrollTest"/>
+            <class name="UIAutomationTesting.IOS.UITesting.ScrollTests.ScrollTest"/>
         </classes>
     </test>
 
     <test name="Validating Long Press Tap Testing for IOS">
         <classes>
-            <class name="UIAutomationTesting.IOS.TestNG.LongPressTap"/>
+            <class name="UIAutomationTesting.IOS.UITesting.LongPresses.LongPressTap"/>
         </classes>
     </test>
 
     <test name="Login">
         <classes>
-            <class name="UIAutomationTesting.IOS.TestNG.LongPressTap">
+            <class name="UIAutomationTesting.IOS.UITesting.LongPresses.LongPressTap">
                 <methods>
                     <exclude name="Register.*"/>
                 </methods>

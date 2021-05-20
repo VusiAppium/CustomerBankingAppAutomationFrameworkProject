@@ -1,4 +1,14 @@
 package UIAutomationTesting.ANDROID.Resources;
 
-public class TestData {
+import org.testng.annotations.DataProvider;
+
+public class TestData
+{
+    @DataProvider(name="InputData")
+    public Object[][] getDataForEditField()
+    {
+        Object[][] object = new Object[][];
+
+
+    }
 }

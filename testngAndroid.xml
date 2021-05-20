@@ -7,13 +7,13 @@
     </listeners>
     <test name="Validating Customer Login for Android ">
         <classes>
-            <class name="UIAutomationTesting.ANDROID.TestNG.LoginScreenUITesting"/>
+            <class name="UIAutomationTesting.ANDROID.UITesting.LoginScreenUITesting"/>
         </classes>
     </test>
 
     <test name="Validating Customer Registratoin for Android">
         <classes>
-            <class name="UIAutomationTesting.ANDROID.TestNG.RegisterScreenUITesting"/>
+            <class name="UIAutomationTesting.ANDROID.UITesting.RegisterScreenUITesting"/>
         </classes>
     </test>
 </suite>

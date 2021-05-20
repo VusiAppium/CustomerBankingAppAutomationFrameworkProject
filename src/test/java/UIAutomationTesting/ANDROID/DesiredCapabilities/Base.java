@@ -56,6 +56,12 @@ public class Base
 
         return isServerRunning;
     }
+
+    public static void startEmulator() throws IOException, InterruptedException {
+        Runtime.getRuntime().exec(System.getProperty("user.dir")+"/Users/abvn237/Documents/" +
+                "CustomersBankingSAAppFramework/src/test/java/UIAutomationTesting/ANDROID/Resources/");
+        Thread.sleep(6000);
+    }
     public static AndroidDriver<AndroidElement> capabilities() throws MalformedURLException
     {
         AndroidDriver<AndroidElement> driver;
